@@ -1,3 +1,113 @@
-body {
-background-color:black;
+body{
+background-color: grey;
+padding: 0;
+margin: 0;
+}
+
+.addBtn {
+border-radius:50%;
+position: fixed;
+margin-left: 80%;
+margin-right: 15%;
+margin-top: 60vh;
+margin-bottom:10vh;
+width: 15rem;
+height:15rem;
+text-align:center;
+font-size: 1200%;
+background-color: orange;
+color: white;
+}
+
+.hidden{
+display:none;
+}
+
+.modal-window {
+position:fixed;
+background-color:white;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+width:40%;
+height:80%;
+border-radius:45px;
+padding-left: 4rem;
+padding-right: 4rem;
+padding-top:1rem;
+font-size:200%;
+text-align:center;
+}
+
+.modal-form {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-gap: 3rem;
+padding-bottom:3rem;
+
+}
+#submitBtn {
+width: 6rem;
+height:4rem;
+background-color:orange;
+color:white;
+font-size:100%;
+border-radius:50px;
+}
+.submit-section{
+display:flex;
+width:100%;
+align-items:center;
+}
+.modal-overlay {
+position:fixed;
+width:100%;
+height:100%;
+background-color: rgba(0,0,0,0.5);
+}
+
+#close-modal {
+background-color:orange;
+color:white;
+border-radius:30px;
+width:3rem;
+height:3rem;
+font-size:80%;
+}
+
+.panel {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 2rem;
+}
+
+.book {
+width: 19rem; 
+height:25rem;
+border-style:solid;
+margin: 1rem;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:space-between;
+background-color: lightsalmon;
+}
+
+.info {
+display:flex;
+justify-content:space-between;
+width:100%;
+align-items:center;
+}
+.readed {
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.error {
+color:white;
+background-color:crimson;
+border-radius:50px;
+
 }
